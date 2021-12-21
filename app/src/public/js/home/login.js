@@ -2,9 +2,9 @@
 
 const id = document.querySelector("#id"),
   passwd = document.querySelector("#passwd"),
-  loginBTn = document.querySelector("#button");
+  loginBtn = document.querySelector("#button");
 
-loginBTn.addEventListener("click", login);
+loginBtn.addEventListener("click", login);
 
 function login() {
   if (!id.value) return alert("아이디를 입력해주십시오");
