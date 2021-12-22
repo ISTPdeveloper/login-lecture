@@ -1,7 +1,8 @@
 "use strict";
 
-const loginBtn = document.querySelector("#button");
+const registerBtn = document.querySelector("#button");
+registerBtn.addEventListener("click", index);
 
-loginBtn.addEventListener("click", () => {
+function index(res, req) {
   location.href = "/login";
-});
+}

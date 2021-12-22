@@ -10,16 +10,23 @@
     <title>Document</title>
   </head>
   <body>
+    <a href="/">홈페이지</a>
     <div class="login-page">
       <div class="form">
         <form class="login-form">
           <input id="id" type="text" placeholder="아이디" />
           <input id="name" type="text" placeholder="이름" />
-          <input id="passwd" type="password" placeholder="비밀번호" />
+          <input
+            id="passwd"
+            type="password"
+            placeholder="비밀번호"
+            autocomplete="on"
+          />
           <input
             id="confirm-passwd"
             type="password"
             placeholder="비밀번호 확인"
+            autocomplete="on"
           />
           <p id="button">sign up</p>
           <p class="message">Already registered? <a href="/login">Login</a></p>
